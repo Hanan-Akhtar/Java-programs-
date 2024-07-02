@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+ border-top: 3px solid black;
+ margin-top:50px;
+}
+.heading{
+   padding-top: 100px;
+  margin-left: 50px;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  
+
+}
+.heading h1{
+  font-weight: bold;
+}
+.footer ul{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.footer ul li{
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.footer ul li:hover{
+  opacity: 1.0;
+}
+.company p{
+  opacity: 0.5;
+align-items:center;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.comment-card{
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comment-card .profile-picture{
+  width: 130px;
+  padding: 20px;
+}
+.comment-card .comment-details{
+  margin: 19px;
+}
+.comment-card .comment-details h4{
+  color: rgb(81, 81, 188);
+}
+.comment-card .comment-details h4 span{
+  color: gray;
+  opacity: 0.5;
+}
+.comment-card .comment-details a{
+  text-decoration: none;
+  color: rgb(81, 81, 188);  
+}
+.comment-card .comment-details .footer {
+  display: flex;
+}
+.comment-card .comment-details .footer p{
+  color: gray;
+  opacity: 0.5;
+}
+
+
+/* for using app.js heading */
+
+.headings h1{
+  color:rgb(81, 81, 188) ;
+}
+.headings{
+  text-align: center;
+}
+.headings .edit{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
